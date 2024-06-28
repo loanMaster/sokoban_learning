@@ -75,6 +75,11 @@ Run `train_action_validation_model.py`. You must run `bash ./stitch.sh` first.
 Trains a model to determine if a level is finished or not.
 Run `train_model.py` to start training.
 
+## video_processing
+
+Extracts frames from videos and removes duplicate frames.
+It also resized image frames to 224x244.
+
 # Starting the Sokoban simulator GUI
 
 A prerequisite is that you executed `bash ./stitch.sh`.
